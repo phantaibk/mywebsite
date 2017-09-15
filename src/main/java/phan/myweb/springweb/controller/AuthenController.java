@@ -16,5 +16,6 @@ public class AuthenController {
 	@RequestMapping(value="/login", method=RequestMethod.GET)
 	public String login(Model model){
 		return "/authentication/login";
+		//test commit file change
 	}
 }
